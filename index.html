@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio - Robson Crul</title>
+    <link rel="stylesheet" href="style/index.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="config.js" defer></script>
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+            <img class="img-logo" src="assets/logo.jpg" alt="">
+            Robson Crul
+        </div>
+        <ul class="nav-links">
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#about-me">Sobre</a></li>
+            <li><a href="#habilities">Habilidades</a></li>
+            <li><a href="#projects">Projetos</a></li>
+        </ul>
+
+        <div class="contact">
+            <button class="button-contact"><a href="#contact-me">Entre em contato</button></a>
+        </div>
+    </nav><!--Fim navbar-->
+
+
+    <!--Inicio section main-->
+    <section class="main" id="inicio" data-aos="fade-up" data-aos-duration="1000">
+        <div class="about-me">
+            <img class="img-me" src="assets/foto-perfil.jpg" alt="Foto perfil" data-aos="fade-up">
+            <div class="apresentation">
+                <div class="title" data-aos="zoom-in" data-aos-duration="1000">
+                    Olá, meu nome é Robson, sou Desenvolvedor Front-End
+                </div>
+                <p class="paragraph" data-aos="zoom-in" data-aos-duration="1000">Transformo ideias em interfaces
+                    intuitivas,
+                    modernas e funcionais. Com atenção aos detalhes e
+                    foco na experiência do usuário, crio soluções que não apenas impressionam visualmente, mas que geram
+                    resultados de verdade para o seu negócio.Utilizo das principais tecnologias Front-End garantindo
+                    otimização e
+                    desempenho.</p>
+            </div>
+        </div>
+    </section><!--Fim section Main-->
+
+    <section class="about-me-description" id="about-me" data-aos="zoom-in-right" data-aos-duration="1000">
+        <h2 class="subtitle">Sobre mim</h2>
+        <p class="paragraph-about_me">Olá! Me chamo Robson, sou estudante de Análise e Desenvolvimento de Sistemas
+            na Unicesumar e atualmente me especializando no desenvolvimento Front-End. Minha
+            paixão pelo desenvolvimento web me motivou a buscar constante evolução, com foco na criação de interfaces
+            intuitivas, responsivas e com uma boa experiência para o usuário.Tenho experiência através de projetos
+            pessoais com HTML, CSS, JavaScript, SASS,
+            TailwindCSS e React. Já desenvolvi projetos como sites
+            institucionais, landing pages, e aplicações interativas — sempre buscando escrever um código limpo,
+            organizado e com foco nos detalhes visuais.
+            Estou sempre em busca de novos desafios e aprendizados, e acredito que a
+            colaboração e o trabalho em equipe são fundamentais para o sucesso de qualquer projeto. Sou uma pessoa
+            proativa, com facilidade de adaptação e sempre aberto a feedbacks construtivos. Além do desenvolvimento, sou
+            apaixonado por tecnologia, design e inovação.
+            Acredito que a combinação dessas áreas pode gerar soluções incríveis e impactantes. Estou sempre em busca de
+            novas tendências e melhores práticas para aprimorar minhas habilidades e oferecer o melhor aos
+            projetos.<strong class="bold">Se você busca alguém comprometido, em constante evolução e
+                com muita vontade de fazer a diferença no mundo
+                do desenvolvimento, vamos conversar!</strong></p>
+    </section>
+
+
+    <div class="container">
+        <!-- Início Habilidades-->
+        <div class="subtitle" id="habilities" data-aos="zoom-in-left">Habilidades</div>
+
+        <section class="habilities-container" data-aos="zoom-in-left" data-aos-duration="1000">
+            <!-- Container Habilidades-->
+            <div class="icon-container">
+                <img src="icons/html.png" alt="">
+                <p class="icon-paragraph">HTML</p>
+            </div>
+
+            <!-- Container Habilidades-->
+            <div class="icon-container">
+                <img src="icons/css.png" alt="">
+                <p class="icon-paragraph">CSS</p>
+            </div>
+
+            <!-- Container Habilidades-->
+            <div class="icon-container">
+                <img style="width: 48px; height: 48px; border-radius: 10px;" src="icons/tailwindcss.png" alt="">
+                <p class="icon-paragraph">TailwindCSS</p>
+            </div>
+
+            <!-- Container Habilidades-->
+            <div class="icon-container">
+                <img src="icons/sass.png" alt="">
+                <p class="icon-paragraph">SASS</p>
+            </div>
+
+            <!-- Container Habilidades-->
+            <div class="icon-container">
+                <img style="width: 48px; height: 48px;" src="icons/javascript.png" alt="">
+                <p class="icon-paragraph">Javascript</p>
+            </div>
+
+            <!-- Container Habilidades-->
+            <div class="icon-container">
+                <img src="icons/react.png" alt="">
+                <p class="icon-paragraph">React</p>
+            </div>
+        </section>
+        <!-- Fim Habilidades-->
+    </div><!-- Fim container -->
+
+    <section class="portfolio">
+
+        <div class="subtitle" id="projects" data-aos="zoom-in-up" data-aos-duration="1000">Meus Projetos</div>
+
+        <section class="projects-container" data-aos="zoom-in-up" data-aos-duration="1000">
+
+            <!--Início projeto-->
+            <div class="project">
+                <img class="project-img" src="assets/projeto-dashboard.png" alt="imagem do projeto: Dashboard">
+
+
+                <div class="project-info">
+                    <strong class="project-title">Dashboard</strong>
+
+                    <p class="project-description">
+                        Dashboard interativo desenvolvido para gerenciar dados com foco em usabilidade e performance.
+                        Possui interface intuitiva, visualização de métricas e um sistema CRUD completo para adicionar,
+                        editar, visualizar e excluir registros dinamicamente. Ideal para controle de usuários, produtos
+                        ou informações administrativas.
+                    </p>
+
+                    <strong class="project-title">Tecnologias</strong>
+
+                    <div class="tech-icons">
+                        <img src="icons/react.png" alt="React">
+                        <img src="icons/html.png" alt="HTML">
+                        <img src="icons/css.png" alt="CSS">
+                        <img src="icons/javascript.png" alt="Javascript">
+                    </div>
+
+                    <section class="buttons-project">
+                        <a href="https://gestor-de-estoque-react.vercel.app/" target="_blank" rel="noopener noreferrer">
+                            <button class="button-project">Ver projeto</button>
+                        </a>
+                        <a href="https://github.com/RobsonCrul/gestor-de-estoque-React" target="_blank"
+                            rel="noopener noreferrer">
+                            <button class="button-project">Github</button>
+                        </a>
+                    </section>
+
+                </div>
+
+            </div>
+            <!--Fim projeto-->
+
+            <!--Início projeto-->
+            <div class="project">
+                <img class="project-img" src="assets/projeto-fome-burguer.png" alt="imagem do projeto: Fome Burguer">
+
+
+                <div class="project-info">
+                    <strong class="project-title">Fome Burguer</strong>
+
+                    <p class="project-description">
+                        O Fome Burguer é um site moderno e responsivo de hamburgueria, criado para proporcionar uma
+                        experiência prática e visualmente atrativa ao usuário. Desenvolvido com HTML, TailwindCSS e
+                        JavaScript, o projeto inclui uma funcionalidade de carrinho de lanches, permitindo ao cliente
+                        adicionar produtos, visualizar os itens selecionados e conferir o valor total antes de finalizar
+                        o pedido.
+                    </p>
+
+                    <strong class="project-title">Tecnologias</strong>
+
+                    <div class="tech-icons">
+                        <img src="icons/html.png" alt="HTML">
+                        <img src="icons/css.png" alt="CSS">
+                        <img src="icons/javascript.png" alt="Javascript">
+                        <img src="icons/tailwindcss.png" alt="TailwindCSS">
+                    </div>
+
+                    <section class="buttons-project">
+                        <a href="https://fome-burguer-psi.vercel.app/" target="_blank" rel="noopener noreferrer">
+                            <button class="button-project">Ver projeto</button>
+                        </a>
+                        <a href="https://github.com/RobsonCrul/Fome-Burguer" target="_blank" rel="noopener noreferrer">
+                            <button class="button-project">Github</button>
+                        </a>
+                    </section>
+
+                </div>
+
+            </div>
+            <!--Fim projeto-->
+
+            <!--Início projeto-->
+            <div class="project">
+                <img class="project-img" src="assets/projeto-barbearia.png" alt="imagem do projeto: Dev Barber">
+
+
+                <div class="project-info">
+                    <strong class="project-title">Dev Barber - Sua barbearia</strong>
+
+                    <p class="project-description">
+                        O Dev Barber é um site institucional desenvolvido para uma barbearia moderna fictícia, com
+                        layout responsivo, visual limpo e navegação fluida. Criado com HTML, CSS e SASS, o projeto
+                        apresenta informações sobre os serviços, horários de atendimento e formas de contato. Ideal para
+                        profissionais que desejam marcar presença online de forma elegante e profissional.
+                    </p>
+
+                    <strong class="project-title">Tecnologias</strong>
+
+                    <div class="tech-icons">
+                        <img src="icons/html.png" alt="HTML">
+                        <img src="icons/css.png" alt="CSS">
+                        <img src="icons/sass.png" alt="SASS">
+                    </div>
+
+                    <section class="buttons-project">
+                        <a href="https://projeto-barbearia-five-sooty.vercel.app/" target="_blank"
+                            rel="noopener noreferrer">
+                            <button class="button-project">Ver projeto</button>
+                        </a>
+                        <a href="https://github.com/RobsonCrul/Projeto_Barbearia" target="_blank"
+                            rel="noopener noreferrer">
+                            <button class="button-project">Github</button>
+                        </a>
+                    </section>
+
+                </div>
+
+            </div>
+            <!--Fim projeto-->
+
+            <!--Início projeto-->
+            <div class="project">
+                <img class="project-img" src="assets/projeto-biblioteca-de-jogos.png"
+                    alt="imagem do projeto: Biblioteca de jogos Digitais">
+
+
+                <div class="project-info">
+                    <strong class="project-title">Biblioteca de jogos</strong>
+
+                    <p class="project-description">
+                        A Biblioteca de Jogos é uma aplicação que permite ao usuário visualizar e gerenciar uma lista de
+                        jogos em uma interface simples e organizada. Desenvolvido com React, CSS e JavaScript, o projeto
+                        destaca-se pela renderização dinâmica de objetos, onde os jogos são exibidos a partir de dados
+                        estruturados em arrays e objetos JS.
+                    </p>
+
+                    <strong class="project-title">Tecnologias</strong>
+
+                    <div class="tech-icons">
+                        <img src="icons/react.png" alt="React">
+                        <img src="icons/html.png" alt="HTML">
+                        <img src="icons/css.png" alt="CSS">
+                        <img src="icons/javascript.png" alt="Javascript">
+                    </div>
+
+                    <section class="buttons-project">
+                        <a href="https://react-biblioteca-de-jogos-mocha.vercel.app/" target="_blank"
+                            rel="noopener noreferrer">
+                            <button class="button-project">Ver projeto</button>
+                        </a>
+                        <a href="https://github.com/RobsonCrul/React-biblioteca-de-jogos-digitais" target="_blank"
+                            rel="noopener noreferrer">
+                            <button class="button-project">Github</button>
+                        </a>
+                    </section>
+
+                </div>
+
+            </div>
+            <!--Fim projeto-->
+
+            <!--Início projeto-->
+            <div class="project">
+                <img class="project-img" src="assets/projeto-jogo-de-advinhacao.png"
+                    alt="imagem do projeto: Jogo de adivinhação">
+
+
+                <div class="project-info">
+                    <strong class="project-title">Jogo de adivinhar o número</strong>
+
+                    <p class="project-description">
+                        Um jogo interativo onde o usuário tenta adivinhar um número aleatório gerado pelo sistema.
+                        Desenvolvido com HTML, CSS e JavaScript, o projeto explora lógica condicional, manipulação do
+                        DOM e validação de entradas. Um ótimo exemplo de como o JavaScript pode ser usado para criar
+                        experiências dinâmicas e divertidas diretamente no navegador.
+                    </p>
+
+                    <strong class="project-title">Tecnologias</strong>
+
+                    <div class="tech-icons">
+                        <img src="icons/html.png" alt="HTML">
+                        <img src="icons/css.png" alt="CSS">
+                        <img src="icons/javascript.png" alt="Javascript">
+                    </div>
+
+                    <section class="buttons-project">
+                        <a href="https://jogo-de-adivinhar-o-numero.vercel.app/" target="_blank"
+                            rel="noopener noreferrer">
+                            <button class="button-project">Ver projeto</button>
+                        </a>
+                        <a href="https://github.com/RobsonCrul/Jogo-de-Adivinhar-o-Numero" target="_blank"
+                            rel="noopener noreferrer">
+                            <button class="button-project">Github</button>
+                        </a>
+                    </section>
+
+                </div>
+
+            </div>
+            <!--Fim projeto-->
+        </section>
+        <!--Fim container projetos-->
+    </section>
+    <!--Fim seção projetos-->
+
+    <!--Início formulário-->
+    <section class="form">
+        <h2 class="subtitle" id="contact-me">Entre em Contato</h2>
+        <form class="contact-form" id="contact-form">
+            <div class="input-box">
+                <input type="text" name="name" required />
+                <label>Nome:</label>
+            </div>
+
+            <div class="input-box">
+                <input type="email" name="email" required />
+                <label>Email:</label>
+            </div>
+
+            <div class="input-box">
+                <textarea name="message" rows="6" required></textarea>
+                <label>Sua mensagem...</label>
+            </div>
+
+            <button class="button-contact button-contact-hover" type="submit">Enviar</button>
+        </form>
+    </section>
+    <!--Fim formulário-->
+
+    <!--Início footer-->
+    <footer class="footer">
+        <p class="paragraph-footer">© 2025 Robson | Desenvolvedor Front-end</p>
+
+        <a class="footer-link" href="https://github.com/robsoncrul" target="_blank">GitHub</a> |
+        <a class="footer-link" href="https://linkedin.com/in/robsoncrul" target="_blank">LinkedIn</a>
+
+        <p class="paragraph-footer">"Criando interfaces intuitivas com código e propósito."</p>
+    </footer>
+    <!--Fim footer-->
+
+    <!--Início botão voltar ao topo-->
+    <div class="to-top-container">
+        <button class="to-top" id="inicio">
+            <a href="#inicio">Inicio</a>
+        </button>
+    </div>
+</body>
+
+</html>
