@@ -31,4 +31,4 @@ Este projeto foi desenvolvido para apresentar minhas habilidades com tecnologias
 
 Você pode acessar o portfólio online pelo link abaixo:
 
-🔗 **[Meu portfólio publicado]**  
+🔗 **[Meu portfólio publicado]**  https://meu-portfolio-ruby-kappa.vercel.app/
