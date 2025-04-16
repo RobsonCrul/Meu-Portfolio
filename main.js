@@ -1,3 +1,7 @@
+const EMAILJS_SERVICE_ID = "service_w80g219";
+const EMAILJS_TEMPLATE_ID = "template_4fn370z";
+const EMAILJS_PUBLIC_KEY = "YbS7WSs-H4Fp3pQF7";
+
 document.addEventListener("DOMContentLoaded", function () {
     // Inicializa AOS
     AOS.init();

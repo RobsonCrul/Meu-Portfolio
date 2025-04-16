@@ -377,8 +377,8 @@ a {
 }
 
 .button-contact-hover {
-    margin: 0 auto;
     display: flex;
+    margin: auto;
 }
 
 .button-contact-hover:hover {
@@ -459,8 +459,25 @@ a {
         display: none;
     }
 
+    .paragraph-about_me{
+        font-size: medium;
+        line-height: 1.3rem;
+    }
+
+    .about-me-description{
+        margin: 2rem 1rem;
+    }
+
+    .button-contact{
+        margin-right: 1rem;
+    }
+
+    .button-contact-hover{
+        margin: auto;
+    }
+
     .logo {
-        margin: 0 1rem;
+        margin-left: 0;
     }
 
     .menu-icon {
@@ -485,11 +502,6 @@ a {
         margin: auto;
     }
 
-    .paragraph,
-    .paragraph-footer {
-        font-size: 1.25rem;
-    }
-
     .subtitle {
         font-size: 2rem;
     }
@@ -501,7 +513,7 @@ a {
     }
 
     .icon-container {
-        margin: 2rem;
+        margin: 2rem .75rem;
     }
 
     .projects-container {
